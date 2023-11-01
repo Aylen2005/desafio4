@@ -30,7 +30,6 @@
 .Ruleta {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 5px;
   width: 20%;
   margin: 0 auto;
   padding: 100px;
@@ -43,12 +42,15 @@
 .color.color1 {
   background-color: #213fea;
   border-top-left-radius: 15em 15em;
+  border-width: 12px;
+  border-style: solid;
+  border-color: black;
 }
 
 .color.color2 {
   background-color: #eb2969;
   border-top-right-radius: 15em 15em;
-  border-width: 10px;
+  border-width: 12px;
   border-style: solid;
   border-color: black;
 
@@ -57,11 +59,17 @@
 .color.color3 {
   background-color: #53ee2c;
   border-bottom-left-radius: 15em 15em;
+  border-width: 12px;
+  border-style: solid;
+  border-color: black;
 }
 
 .color.color4 {
   background-color: #6b24c8;
   border-bottom-right-radius: 15em 15em;
+  border-width: 12px;
+  border-style: solid;
+  border-color: black;
 }
 
 @media (max-width: 500px) {
@@ -71,8 +79,7 @@
 }
 /* Botones css */
 .boton{
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
 
 }
 
@@ -80,8 +87,8 @@
   background: black;
   color: white;
   font-size: 2rem;
-  border-radius: 2rem;
-  width: 17rem;
-  height: 4rem;
+  border-radius: 8rem;
+  width: 8rem;
+  height: 8rem;
   text-size-adjust: 2rem;
 }
