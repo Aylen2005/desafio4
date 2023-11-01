@@ -6,12 +6,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #f1cee3;
+  background-color: #000000;
   color: black;
 }
 
 .logo img {
-  width: 120px;
+  width: 140px;
 }
 
 .menu ul {
@@ -27,7 +27,7 @@
 
 /* Simon css*/
 
-.parent {
+.Ruleta {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5px;
@@ -41,36 +41,47 @@
 }
 
 .color.color1 {
-  background-color: #455eec;
+  background-color: #213fea;
+  border-top-left-radius: 15em 15em;
 }
 
 .color.color2 {
-  background-color: #f35c8e;
-  border-top-left-radius: 7em 7em;
-  border-top-right-radius: 7em 7em;
-  border-bottom-right-radius: 7em 7em;
+  background-color: #eb2969;
+  border-top-right-radius: 15em 15em;
+  border-width: 10px;
+  border-style: solid;
+  border-color: black;
 
 }
 
 .color.color3 {
-  background-color: #78ec5a;
-  border-top-left-radius: 7em 7em;
-  border-bottom-left-radius: 7em 7em;
-  border-bottom-right-radius: 7em 7em;
+  background-color: #53ee2c;
+  border-bottom-left-radius: 15em 15em;
 }
 
 .color.color4 {
-  background-color: #a56eec;
-  border-top-right-radius: 7em 7em;
-  border-bottom-left-radius: 7em 7em;
-  border-bottom-right-radius: 7em 7em;
+  background-color: #6b24c8;
+  border-bottom-right-radius: 15em 15em;
 }
 
-/* Estilos para hacer la grilla responsiva */
 @media (max-width: 500px) {
   .parent {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   }
 }
+/* Botones css */
+.boton{
+  display: flex;
+  justify-content: center;
 
+}
 
+.Iniciar{
+  background: black;
+  color: white;
+  font-size: 2rem;
+  border-radius: 2rem;
+  width: 17rem;
+  height: 4rem;
+  text-size-adjust: 2rem;
+}
