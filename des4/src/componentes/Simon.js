@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
+
+function ColorButton({ color }) {
+  const [isActive, setIsActive] = useState(false);
+
+  const handleClick = () => {
+    setIsActive(!isActive);
+  };
+
+  const buttonClass = `color ${color} ${isActive ? 'active' : ''}`;
+
+  return <button className={buttonClass} onClick={handleClick}></button>;
+}
 
 function App() {
   return (
     <div className="Ruleta">
-      <button className='color color1'></button>
-      <button className='color color2'></button>
-      <button className='color color3'></button>
-      <button className='color color4'></button>
+      <ColorButton color="color1" />
+      <ColorButton color="color2" />
+      <ColorButton color="color3" />
+      <ColorButton color="color4" />
     </div>
   );
 }

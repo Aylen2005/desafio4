@@ -1,5 +1,7 @@
 .App-header {
-    background-image: url('https://img.freepik.com/vector-premium/pared-textura-blanca-fondo-gris-oscuro_664601-2399.jpg');
+    background-image: url('https://previews.123rf.com/images/ksanagraphica/ksanagraphica1803/ksanagraphica180300467/97006185-patr%C3%B3n-de-rayos-sobre-fondo-blanco-en-estilo-c%C3%B3mic-ilustraci%C3%B3n-vectorial.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
