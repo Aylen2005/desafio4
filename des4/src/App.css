@@ -1,11 +1,10 @@
 .App-header {
-    background-image: url('https://previews.123rf.com/images/ksanagraphica/ksanagraphica1803/ksanagraphica180300467/97006185-patr%C3%B3n-de-rayos-sobre-fondo-blanco-en-estilo-c%C3%B3mic-ilustraci%C3%B3n-vectorial.jpg');
+    background-image: url('https://littleitalymallorca.com/wp-content/uploads/2022/05/textura-fondo-blanco-gris-moderno-abstracto-diseno-fondo-poligonal-caotico_266639-1444.png');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
-    display: flex;
+    min-height: 100vh; 
+    display: flex;  
     flex-direction: column;
-    font-size: calc(10px + 2vmin);
   }
   
   /* Footer.css */
